@@ -1,0 +1,9 @@
+server:
+ port: 8282
+ 
+eureka:
+ instance:
+  hostname: ${EUREKA:localhost}
+ client:
+  register-with-eureka: false
+  fetch-registry: false
