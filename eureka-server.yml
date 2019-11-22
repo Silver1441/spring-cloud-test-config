@@ -1,5 +1,5 @@
 server:
- port: 8282
+ port: ${WORKSPACE_PORT:8282}
  
 eureka:
  instance:
