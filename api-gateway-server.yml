@@ -1,0 +1,7 @@
+server:
+  port: ${API_GATEWAY_PORT:9094}
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8282/eureka/
