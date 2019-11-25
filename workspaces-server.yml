@@ -1,5 +1,5 @@
 server:
- port: ${WORKSPACE_PORT:9090}
+ port: ${WORKSPACES_PORT:9090}
 
 eureka:
  client:
