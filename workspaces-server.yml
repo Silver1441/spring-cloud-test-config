@@ -1,7 +1,7 @@
 server:
  port: ${WORKSPACES_PORT:9090}
 
-eureka:
- client:
-  serviceUrl:
-   defaultZone: http://localhost:8282/eureka/
+#eureka:
+# client:
+#  serviceUrl:
+#   defaultZone: http://localhost:8282/eureka/

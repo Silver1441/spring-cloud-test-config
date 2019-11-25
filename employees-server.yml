@@ -1,7 +1,7 @@
 server:
  port: ${EMPLOYEES_PORT:9092}
 
-eureka:
- client:
-  serviceUrl:
-   defaultZone: http://localhost:8282/eureka/
+#eureka:
+# client:
+#  serviceUrl:
+#   defaultZone: http://localhost:8282/eureka/
